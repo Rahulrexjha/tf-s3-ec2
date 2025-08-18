@@ -31,6 +31,9 @@ variable "dest_script_path" {
 variable "private_key_path" {
   description = "private key path"
 }
+variable "instance_name" {
+  description = "instance name"
+}
 variable "instance_type" {
   description = "instance type"
 }
