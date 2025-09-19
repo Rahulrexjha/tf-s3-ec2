@@ -6,7 +6,7 @@ echo "Starting API server setup for Ubuntu..."
 apt-get update -y
 apt-get install -y nginx curl
 
-# --- 1. Configure Nginx as a Reverse Proxy ---
+# --- 1. Configure Nginx as a Reverse Proxy -
 echo "Configuring Nginx..."
 cat <<'EOF' > /etc/nginx/sites-available/api-proxy
 server {
